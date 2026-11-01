@@ -1,6 +1,6 @@
 # Photo credits
 
-These 18 sample photos are from Unsplash (https://unsplash.com/license), free to use, including for business. They show design styles. They are NOT Webro Nexzen projects. Each was resized and compressed for the web.
+These 20 sample photos are from Unsplash (https://unsplash.com/license), free to use, including for business. They show design styles. They are NOT Webro Nexzen projects. Each was resized and compressed for the web.
 
 - `stock-hotel-lobby-wood`: photo by @framesforyourheart on Unsplash, https://unsplash.com/@framesforyourheart (file `photo-1621293954908-907159247fc8.jpg`)
 - `stock-hotel-lobby-marble`: photo by @aalolens on Unsplash, https://unsplash.com/@aalolens (file `photo-1758193783649-13371d7fb8dd.jpg`)
@@ -20,5 +20,7 @@ These 18 sample photos are from Unsplash (https://unsplash.com/license), free to
 - `stock-landscape-terrace`: photo by @greg_nunes on Unsplash, https://unsplash.com/@greg_nunes (file `photo-1623358519330-00f61d89396b.jpg`)
 - `stock-chandelier-lobby`: photo by @ozzzyphotos on Unsplash, https://unsplash.com/@ozzzyphotos (file `photo-1625244724120-1fd1d34d00f6.jpg`)
 - `stock-sofa-leather`: photo by @martinpechy on Unsplash, https://unsplash.com/@martinpechy (file `photo-1549187774-b4e9b0445b41.jpg`)
+- `stock-cargo-dock`: photo by @nathan_cima on Unsplash, https://unsplash.com/@nathan_cima (file `photo-1670121180530-cfcba4438038.jpg`)
+- `stock-containers-stack`: photo by @justmejuliee on Unsplash, https://unsplash.com/@justmejuliee (file `photo-1784914185452-5b73dc4ea306.jpg`)
 
 All other photos come from the Webro Nexzen PDF, business card and flyer.

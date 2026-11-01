@@ -67,3 +67,5 @@
 | stock-landscape-terrace | Garden terrace with steps, plants and green lawn | Unsplash, @greg_nunes |
 | stock-chandelier-lobby | Hotel lobby with a large gold chandelier | Unsplash, @ozzzyphotos |
 | stock-sofa-leather | Orange-brown leather sofa against a white wall | Unsplash, @martinpechy |
+| stock-cargo-dock | Container ship at a port dock with tall cranes | Unsplash, @nathan_cima |
+| stock-containers-stack | Tall stack of colourful shipping containers | Unsplash, @justmejuliee |

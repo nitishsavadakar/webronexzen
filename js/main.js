@@ -68,4 +68,22 @@
     },{rootMargin:'-35% 0px -60% 0px'});
     Object.keys(links).forEach(function(id){var s=document.getElementById(id); if(s)io.observe(s)});
   }
+
+  // scroll reveal: a few places only (headings, service cards, steps, photos, categories, contact cards)
+  var calm=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!calm&&'IntersectionObserver' in window){
+    var groups=[['.head',''],['.card','pop'],['.step',''],['.ie-photos figure','pop'],['.cats li','pop'],['.panel',''],['.why li',''],['.addr',''],['.csr figure','']];
+    var ro=new IntersectionObserver(function(es){
+      es.forEach(function(e){ if(e.isIntersecting){
+        var el=e.target; el.classList.add('in'); ro.unobserve(el);
+        el.addEventListener('animationend',function(){el.classList.remove('rv','pop','in')},{once:true});
+      }});
+    },{rootMargin:'0px 0px -8% 0px',threshold:0.12});
+    groups.forEach(function(g){
+      $$(g[0]).forEach(function(el,i){
+        el.classList.add('rv'); if(g[1])el.classList.add(g[1]);
+        el.style.setProperty('--d',String(i%4)); ro.observe(el);
+      });
+    });
+  }
 })();
