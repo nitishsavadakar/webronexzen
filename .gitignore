@@ -1,0 +1,7 @@
+.DS_Store
+# Source files from the client (not needed to run the site; the slides carry third-party watermarks)
+assets/images/original/
+*.pdf
+PHOTO-*.jpg
+# Internal working notes
+content/TEXT-ADDED-FOR-OWNER-APPROVAL.md
