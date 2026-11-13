@@ -13,6 +13,13 @@
     });
   });
 
+  // links inside a pop-up (such as Contact us) close it, then the page jumps to the section
+  body.addEventListener('click',function(e){
+    var l=e.target.closest('a[data-close]'); if(!l) return;
+    e.preventDefault(); svc.close(); root.classList.remove('lock');
+    var t=document.querySelector(l.getAttribute('href')); if(t){ t.scrollIntoView(); history.replaceState(null,'',l.getAttribute('href')); }
+  });
+
   // lightbox
   var lb=$('#lb'), lbPic=$('#lb-pic'), lbImg=$('#lb-img'), lbCap=$('#lb-cap'), list=[], idx=0;
   function show(i){

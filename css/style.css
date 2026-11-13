@@ -9,7 +9,7 @@
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-body{margin:0;font-family:var(--body);font-size:17px;line-height:1.6;color:var(--ink);background:var(--paper);padding-bottom:84px}
+body{margin:0;font-family:var(--body);font-size:17px;line-height:1.6;color:var(--ink);background:var(--paper)}
 img{max-width:100%;height:auto;display:block}
 a{color:var(--navy)}
 h1,h2,h3{font-family:var(--head);color:var(--navy);line-height:1.15;margin:0}
