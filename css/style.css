@@ -96,7 +96,7 @@ section{padding:clamp(3.5rem,8vw,7rem) 0;scroll-margin-top:76px}
 .more::after{content:"→"}
 
 /* process */
-.band{background:var(--navy);color:#fff}
+.band{color:#fff;background:radial-gradient(520px 300px at 6% 0%,rgba(27,127,196,.38),transparent 70%),radial-gradient(520px 300px at 100% 100%,rgba(176,138,62,.26),transparent 70%),linear-gradient(125deg,#0C2250,#12306B 55%,#16397F)}
 .band h2,.band .head p{color:#fff}.band .head p{opacity:.85}
 .steps{display:grid;gap:18px;grid-template-columns:1fr;counter-reset:s}
 .step{background:var(--navy-2);border-radius:var(--r);overflow:hidden;border:1px solid rgba(255,255,255,.1)}
@@ -178,7 +178,7 @@ section{padding:clamp(3.5rem,8vw,7rem) 0;scroll-margin-top:76px}
 .card-img{border-radius:var(--r);overflow:hidden;border:1px solid var(--line);background:#fff}
 .card-img button{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in}
 
-footer{background:var(--navy-2);color:#C9D3E8;padding:44px 0 34px;font-size:15px}
+footer{background:linear-gradient(135deg,#091A3F,#0C2250);color:#C9D3E8;padding:44px 0 34px;font-size:15px}
 footer .wrap{display:grid;gap:26px}
 footer p{margin:10px 0 0}
 footer h4{margin:0 0 10px;font:600 13px var(--body);letter-spacing:.16em;text-transform:uppercase;color:#E3C98B}
@@ -279,3 +279,12 @@ dialog::backdrop{background:rgba(8,20,48,.72)}
 /* icon tiles */
 .ico{display:grid;place-items:center;width:54px;height:54px;border-radius:14px;background:rgba(27,127,196,.14);color:var(--navy);margin-bottom:12px}
 .ico svg{width:28px;height:28px}
+
+/* closing call-to-action band */
+.cta-sec{padding:clamp(2rem,5vw,3.5rem) 0 0}
+.cta-band{position:relative;overflow:hidden;border-radius:var(--r-lg);padding:clamp(28px,6vw,56px);color:#fff;text-align:center;box-shadow:var(--sh3);background:radial-gradient(420px 260px at 0% 0%,rgba(27,127,196,.45),transparent 70%),radial-gradient(420px 260px at 100% 100%,rgba(176,138,62,.35),transparent 70%),linear-gradient(125deg,#0C2250,#12306B 60%,#16397F)}
+.cta-band h2{color:#fff;font-size:clamp(26px,5.6vw,40px)}
+.cta-band p{margin:12px auto 22px;max-width:30em;color:#DCE4F4;font-size:18px}
+.cta-band .btn-row{justify-content:center;max-width:480px;margin:0 auto}
+.btn-gold{background:linear-gradient(120deg,#F3DFAA,#C79A45);color:#12306B;box-shadow:0 8px 22px rgba(199,154,69,.38)}
+.btn-gold:hover{box-shadow:0 12px 28px rgba(199,154,69,.5)}
