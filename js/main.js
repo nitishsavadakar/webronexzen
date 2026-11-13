@@ -64,13 +64,23 @@
     });
   });
 
+  // header: shadow after scrolling, hamburger menu on phones
+  var top=$('.top'), burger=$('.burger');
+  function onScroll(){ top.classList.toggle('scrolled',(window.scrollY||0)>8); }
+  window.addEventListener('scroll',onScroll,{passive:true}); onScroll();
+  function setMenu(o){ top.classList.toggle('open',o); burger.setAttribute('aria-expanded',o?'true':'false'); burger.setAttribute('aria-label',o?'Close menu':'Open menu'); }
+  burger.addEventListener('click',function(){ setMenu(!top.classList.contains('open')); });
+  $$('.nav a').forEach(function(a){ a.addEventListener('click',function(){ setMenu(false); }); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') setMenu(false); });
+  var yr=$('#yr'); if(yr) yr.textContent=new Date().getFullYear();
+
   // highlight current section in menu
   if('IntersectionObserver' in window){
     var links={}; $$('.nav a').forEach(function(a){links[a.getAttribute('href').slice(1)]=a});
     var io=new IntersectionObserver(function(es){
       es.forEach(function(e){ if(e.isIntersecting){
         $$('.nav a.on').forEach(function(a){a.classList.remove('on')});
-        var a=links[e.target.id]; if(a){a.classList.add('on'); a.scrollIntoView({block:'nearest',inline:'center'});}
+        var a=links[e.target.id]; if(a){a.classList.add('on');}
       }});
     },{rootMargin:'-35% 0px -60% 0px'});
     Object.keys(links).forEach(function(id){var s=document.getElementById(id); if(s)io.observe(s)});

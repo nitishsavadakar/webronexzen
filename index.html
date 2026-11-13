@@ -27,7 +27,8 @@
 <header class="top">
  <div class="wrap">
   <a class="brand" href="#top" aria-label="Webro Nexzen, home"><img src="assets/images/web/logo-icon.png" width="40" height="30" alt=""><span>Webro Nexzen</span></a>
- <nav class="nav" aria-label="Sections"><ul>
+ <button class="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+ <nav class="nav" id="nav" aria-label="Sections"><ul>
   <li><a href="#services">Services</a></li><li><a href="#how">Process</a></li><li><a href="#projects">Our Work</a></li>
   <li><a href="#trade">Import/Export</a></li><li><a href="#medical">Medical</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li>
  </ul></nav>
@@ -138,9 +139,10 @@
 </main>
 
 <footer><div class="wrap">
- <img src="assets/images/web/logo.png" width="130" height="65" alt="Webro Nexzen" style="background:#fff;border-radius:10px;padding:6px">
- <div>Webro Nexzen &ndash; For a better tomorrow. Bengaluru, India.</div>
- <div>Partner company for medical products: <a href="https://www.meeanenterprises.com/" target="_blank" rel="noopener">Meean Enterprises</a></div>
+ <div class="f-brand"><img src="assets/images/web/logo.png" width="130" height="65" alt="Webro Nexzen" style="background:#fff;border-radius:10px;padding:6px"><p>Webro Nexzen &ndash; For a better tomorrow. Bengaluru, India.</p></div>
+ <div class="f-col"><h4>Menu</h4><ul><li><a href="#services">Services</a></li><li><a href="#how">Process</a></li><li><a href="#projects">Our Work</a></li><li><a href="#trade">Import/Export</a></li><li><a href="#medical">Medical</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li></ul></div>
+ <div class="f-col"><h4>Partner</h4><p>Partner company for medical products: <a href="https://www.meeanenterprises.com/" target="_blank" rel="noopener">Meean Enterprises</a></p></div>
+ <p class="copy">&copy; <span id="yr">2026</span> Webro Nexzen. All rights reserved.</p>
 </div></footer>
 
 <dialog id="svc" aria-label="Service details"><button class="dx" data-close aria-label="Close">&times;</button><div class="dbody" id="svc-body"></div></dialog>
