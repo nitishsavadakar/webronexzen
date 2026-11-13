@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nitishsavadakar.github.io/webronexzen/sitemap.xml
