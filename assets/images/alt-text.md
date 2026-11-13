@@ -6,7 +6,6 @@
 | logo-icon.png | Webro Nexzen drop symbol | PDF slide 1 |
 | civil-foundation-columns | Steel and concrete columns in a deep foundation pit | PDF slide 4 |
 | civil-column-formwork | Workers fixing column formwork in a pit | PDF slide 4 |
-| civil-footing-excavation | Workers building a concrete footing in an excavation | PDF slide 4 |
 | civil-steel-bars-pit | Steel bars laid for a foundation slab inside a pit | PDF slide 4 |
 | civil-wall-formwork | Wooden formwork wall with steel bars on top | PDF slide 4 |
 | civil-pit-workers | Workers setting up foundation formwork in a pit | PDF slide 4 |
