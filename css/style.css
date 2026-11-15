@@ -173,7 +173,7 @@ section{padding:clamp(3.5rem,8vw,7rem) 0;scroll-margin-top:76px}
 .addr h3{font:600 14px var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--brass);margin-bottom:6px}
 .addr address{font-style:normal}
 .addr .zh{font-size:17px;margin-top:4px}
-.addr a.map{display:inline-block;margin-top:8px;font-weight:600}
+.addr a.map{display:inline-flex;align-items:center;min-height:44px;margin-top:4px;font-weight:600}
 .owner{font:600 24px var(--head);color:var(--navy)}
 .card-img{border-radius:var(--r);overflow:hidden;border:1px solid var(--line);background:#fff}
 .card-img button{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in}
@@ -186,7 +186,8 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
 footer .copy{margin:0;padding-top:20px;border-top:1px solid rgba(255,255,255,.14);font-size:14px}
 @media (min-width:860px){footer .wrap{grid-template-columns:1.4fr 1fr 1fr}footer .copy{grid-column:1/-1}}
 footer img{width:130px}
-footer a{color:#fff}
+footer a{color:#fff;display:inline-flex;align-items:center;min-height:44px}
+footer .copy a{min-height:0;display:inline}
 
 /* mobile action bar */
 .bar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;gap:10px;padding:10px var(--gut) calc(10px + env(safe-area-inset-bottom));background:var(--paper);border-top:1px solid var(--line);box-shadow:0 -6px 18px rgba(0,0,0,.08)}
@@ -239,7 +240,7 @@ dialog::backdrop{background:rgba(8,20,48,.72)}
   .top .brand{min-height:0}
   .nav{border:0;margin:0;justify-self:end}
   .nav ul{padding:0}
-  .nav a{font-size:15.5px;padding:10px 9px;display:block}
+  .nav a{font-size:15.5px;padding:13px 9px;display:block}
   .nav ul{gap:2px}
   .top .wrap{column-gap:24px}
   .top-cta .btn{min-height:46px;padding:0 20px;font-size:16px}
