@@ -68,3 +68,5 @@
 | stock-sofa-leather | Orange-brown leather sofa against a white wall | Unsplash |
 | stock-cargo-dock | Container ship at a port dock with tall cranes | Unsplash |
 | stock-containers-stack | Tall stack of colourful shipping containers | Unsplash |
+| stock-kitchen-hanging-utensils | Steel kitchen wall with hanging strainers and a large pot on a gas burner | Pexels (free licence) |
+| stock-kitchen-pot-on-burner | Large steel pot on a commercial kitchen burner | Pexels (free licence) |
